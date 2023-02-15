@@ -21,5 +21,5 @@ int main ()
     }
     
     cout<< "Il numero maggiore e': "<< maggiore;
-
+ return 0;
 }
