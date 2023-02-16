@@ -7,9 +7,9 @@ using namespace std;
 bool cercaCarattere (string parola, char carattere)
 {
     int i =0;
-    while(i<parola.length())
+    while(i<parola.length()) //scorro la parola
     {
-        if(parola[i] == carattere)
+        if(parola[i] == carattere) //se trovo il carattere nella parola ritorna vero
         {
             return true;
         }
