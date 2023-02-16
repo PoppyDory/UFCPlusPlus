@@ -5,7 +5,7 @@ using namespace std;
 
 string faiCiao(string nome, string cognome)
 {
-    string saluto = "Ciao, " + nome+ " "+ cognome + " ^.^";
+    string saluto = "Ciao, " + nome+ " "+ cognome + " ^.^ ";
     return saluto;
 }
 
