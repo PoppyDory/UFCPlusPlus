@@ -7,7 +7,7 @@ using namespace std;
 int decrescente(int x, int y)
 {
     int i;
-    for (i = x; i >=y; i--)
+    for (i = x; i >=y+1; i--)
     {
         cout << i << endl;
     }
@@ -15,5 +15,7 @@ int decrescente(int x, int y)
 
 int main ()
 {
-   cout<< decrescente(300,150);
+    cout<< decrescente(300,150);
+    
+    return 0;
 }

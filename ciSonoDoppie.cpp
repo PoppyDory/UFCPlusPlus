@@ -6,7 +6,7 @@ using namespace std;
 bool cisonodoppie(string parola)
 {
     int i = 0;
-    while (i<parola.length())
+    while (i < parola.length())
     {
         if (parola[i] == parola[i + 1])
         {
@@ -19,5 +19,12 @@ bool cisonodoppie(string parola)
 
 int main()
 {
-     cisonodoppie("mamma");
+    if (cisonodoppie("papa"))
+    {
+        cout<<"Ci sono doppie. ";
+    }
+    else 
+    {
+        cout<<"Non ci sono doppie. ";
+    }
 }

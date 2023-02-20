@@ -146,7 +146,7 @@ bool isBetween(int a, int b, int c)
 //output: vero o falso
 bool bisestile(int anno)
 {
-    if (anno % 4 == 0 && anno & 100 != 0 || anno % 400 == 0)
+    if (anno % 4 == 0 && anno % 100 != 0 || anno % 400 == 0)
     {
         return true;
     }
